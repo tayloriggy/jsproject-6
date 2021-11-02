@@ -14,9 +14,9 @@ was right or wrong.
 
 
 function submitAnswers () {
-    firstQuestion();
-    secondQuestion();
-    thirdQuestion();
+    firstQuestion(); //runs function for first question
+    secondQuestion(); //runs function for second question
+    thirdQuestion(); //runs function for third question
     
 }
 
