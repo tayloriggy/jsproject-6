@@ -23,22 +23,22 @@ function submitAnswers () {
 function firstQuestion () {
     
     if (document.getElementById("8").checked) {
-        alert (`Right! The correct answer is ${document.getElementById("8").value}`);
+        alert (`Question 1: Right! The correct answer is ${document.getElementById("8").value}`);
     }
 
     else {
-        alert (`Wrong! The correct answer is ${document.getElementById("8").value}`);
+        alert (`Question 1: Wrong! The correct answer is ${document.getElementById("8").value}`);
     }
 }
 
 function secondQuestion () {
 
     if (document.getElementById("d").checked) {
-        alert (`Right! The correct answer is ${document.getElementById("d").value}`);
+        alert (`Question 2: Right! The correct answer is ${document.getElementById("d").value}`);
     }
 
     else {
-        alert (`Wrong! The correct answer is ${document.getElementById("d").value}`);
+        alert (`Question 2: Wrong! The correct answer is ${document.getElementById("d").value}`);
     }
 
 }
@@ -46,11 +46,11 @@ function secondQuestion () {
 function thirdQuestion () {
 
     if (document.getElementById("sapiens").checked) {
-        alert (`Right! The correct answer is ${document.getElementById("sapiens").value}`);
+        alert (`Question 3: Right! The correct answer is ${document.getElementById("sapiens").value}`);
     }
 
     else {
-        alert (`Wrong! The correct answer is ${document.getElementById("sapiens").value}`);
+        alert (`Question 3: Wrong! The correct answer is ${document.getElementById("sapiens").value}`);
     }
 }
     
