@@ -13,6 +13,7 @@ was right or wrong.
 */
 
 
+
 function submitAnswers () {
     firstQuestion(); //runs function for first question
     secondQuestion(); //runs function for second question
@@ -23,22 +24,22 @@ function submitAnswers () {
 function firstQuestion () {
     
     if (document.getElementById("8").checked) {
-        alert (`Question 1: Right! The correct answer is ${document.getElementById("8").value}`);
+       document.getElementById("first").innerHTML = "Question 1: Right! The correct answer is 8.";
     }
 
     else {
-        alert (`Question 1: Wrong! The correct answer is ${document.getElementById("8").value}`);
+        document.getElementById("first").innerHTML = "Question 1: Wrong! The correct answer is 8.";
     }
 }
 
 function secondQuestion () {
 
     if (document.getElementById("d").checked) {
-        alert (`Question 2: Right! The correct answer is ${document.getElementById("d").value}`);
+        document.getElementById("second").innerHTML = "Question 2: Right! The correct answer is Blue and Red.";
     }
 
     else {
-        alert (`Question 2: Wrong! The correct answer is ${document.getElementById("d").value}`);
+        document.getElementById("second").innerHTML = "Question 2: Wrong! The correct answer is Blue and Red.";
     }
 
 }
@@ -46,11 +47,11 @@ function secondQuestion () {
 function thirdQuestion () {
 
     if (document.getElementById("sapiens").checked) {
-        alert (`Question 3: Right! The correct answer is ${document.getElementById("sapiens").value}`);
+        document.getElementById("third").innerHTML = "Question 3: Right! The correct answer is Homo sapiens.";
     }
 
     else {
-        alert (`Question 3: Wrong! The correct answer is ${document.getElementById("sapiens").value}`);
+        document.getElementById("third").innerHTML = "Question 3: Wrong! The correct answer is Homo sapiens.";
     }
 }
     

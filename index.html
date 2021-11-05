@@ -18,6 +18,7 @@
         <label for="8">8</label><br>
         <input type="radio" id="7" name="quiz_1" value="7">
         <label for="7">7</label><br>
+        <p id="first"></p>
 
         <p id="2">What colors mixed together make purple?</p>
         <input type="radio" id="a" name="quiz_2" value="Orange and Red">
@@ -28,6 +29,7 @@
         <label for="c">Green and Blue</label><br>
         <input type="radio" id="d" name="quiz_2" value="Blue and Red">
         <label for="d">Blue and Red</label><br> 
+        <p id="second"></p>
 
         <p id="3">What is the species name of modern humans?</p>
         <input type="radio" id="habilis" name="quiz_3" value="Homo habilis">
@@ -37,9 +39,14 @@
         <input type="radio" id="erectus" name="quiz_3" value="Homo erectus">
         <label for="erectus">Homo erectus</label><br>
         <input type="radio" id="neand" name="quiz_3" value="neand">
-        <label for="neand">Homo neanderthalensis</label><br><br>
+        <label for="neand">Homo neanderthalensis</label><br>
+        <p id="third"></p>
+
+        <form name="formname" onsubmit="return false"></form>
 
         <input type="submit" value="Submit Answers" onclick="submitAnswers()">
+
+        
     </form>
     <script src="script.js"></script>
 </body>
